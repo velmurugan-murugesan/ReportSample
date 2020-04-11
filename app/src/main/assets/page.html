@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--To make this work we need to add The Mark-of-the-Web (MotW) Comment-->
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <script src="./lib/powerbi.js"></script>
+
+</head>
+<body>
+<div id="powerbi-container">
+    Loading...
+</div>
+<script>
+
+        var models = window['powerbi-client'].models;
+        var accessTokenn = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IllNRUxIVDBndmIwbXhvU0RvWWZvbWpxZmpZVSIsImtpZCI6IllNRUxIVDBndmIwbXhvU0RvWWZvbWpxZmpZVSJ9.eyJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNWRhM2YwYmYtYjlkYy00MmJiLTk2NmMtNWUyNWQ3ODQ4ZDgwLyIsImlhdCI6MTU4NjUwNjY3MSwibmJmIjoxNTg2NTA2NjcxLCJleHAiOjE1ODY1MTA1NzEsImFjY3QiOjAsImFjciI6IjEiLCJhaW8iOiJBU1FBMi84UEFBQUFmTGZ0NlZKMVZTU2tya21NWC9VUjFJWlFON2FheUFKNGxOcVN4M1N6Nm1zPSIsImFtciI6WyJwd2QiXSwiYXBwaWQiOiI3ZjU5YTc3My0yZWFmLTQyOWMtYTA1OS01MGZjNWJiMjhiNDQiLCJhcHBpZGFjciI6IjIiLCJmYW1pbHlfbmFtZSI6Ik11cnVnZXNhbiIsImdpdmVuX25hbWUiOiJWZWxtdXJ1Z2FuIiwiaXBhZGRyIjoiNjAuMjQzLjIwLjE2NSIsIm5hbWUiOiJWZWxtdXJ1Z2FuIE11cnVnZXNhbiIsIm9pZCI6IjAwMTAyZDA2LWJiYzMtNGU4MS05YTFkLTQxNTdkOTQxMDY1OCIsInB1aWQiOiIxMDAzMjAwMEFEMEM3RjJFIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic3ViIjoiZUFXdmhQTVFfSFpCY3dYSUFicURBeGFTd1d0UDJuSVZSYTEzM2t6UzF1SSIsInRpZCI6IjVkYTNmMGJmLWI5ZGMtNDJiYi05NjZjLTVlMjVkNzg0OGQ4MCIsInVuaXF1ZV9uYW1lIjoidmVsbXVydWdhbkBpdGlvbWFpbC5jb20iLCJ1cG4iOiJ2ZWxtdXJ1Z2FuQGl0aW9tYWlsLmNvbSIsInV0aSI6IndFWTY3Z2lJOTA2N0JQWVlWQlVnQUEiLCJ2ZXIiOiIxLjAifQ.eU_o10TX3PDzNT_uNXD7ddpNznMZHOFcoWiEhKmtIXIWJq2OpPYjERk3GDxl75XEdddiGwAAPjogpTAq3-5I448A5RT6I9tbYp963t03eVq20PSkA2ycF4FmWy5HO7FpmQtARyPA0dqVoWNQdqZCladBGYA9B606C-FInYOUcEGlOwDnXmtZkwKUrvnY8zcXBiCEdaoGGi8rDBlNGFP6EZH4W6upp0OTowhUa606SDCWY3LK8fPFU1niED9V4APSmnynRAl0hzcw_2opdbV6iHy5RtnFZH5EFOG3AtL6WV6FOVVcYrtiJMqvOYmUsMq28saDHie6gBN6iWSA4kgN_g";
+
+      let config = {
+         //type: 'report',
+          type: 'visual',
+		  pageName: 'ReportSection',
+          visualName: "VisualContainer3",
+         accessToken: accessTokenn,
+         embedUrl: 'https://app.powerbi.com/reportEmbed?',
+         id: '542a58a8-0a1c-43b6-931a-464d60ee2cb8'
+  };
+        var embedContainer = document.getElementById('powerbi-container');
+
+        // Embed the report and display it within the div container.
+       var report = powerbi.embed(embedContainer, config);
+
+
+
+
+
+</script>
+</body>
+</html>

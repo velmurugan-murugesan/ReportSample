@@ -1,0 +1,61 @@
+
+
+[
+
+{
+"asset_url": "powerbi-models.min.js",
+"url":"https://app.powerbi.com/13.0.12816.284/externals/powerbi-models.min.js"
+},
+  {
+    "asset_url": "reportembed.externals.bundle.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/reportembed.externals.bundle.min.js"
+  },
+  {
+    "asset_url": "powerbiportal.dependencies.bundle.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/powerbiportal.dependencies.bundle.min.js"
+  },
+  {
+    "asset_url": "reportembed.common.bundle.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/reportembed.common.bundle.min.js"
+  },
+  {
+    "asset_url": "powerbiportal.explore.bundle.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/powerbiportal.explore.bundle.min.js"
+  },
+  {
+    "asset_url": "reportEmbed.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/reportEmbed.min.js"
+  },
+  {
+    "asset_url": "jsonfilter.min.js",
+    "url":"https://app.powerbi.com/13.0.12816.284/scripts/jsonfilter.min.js"
+  },{
+  "asset_url": "jquery-ui.min.js",
+  "url":"https://app.powerbi.com/13.0.12816.284/externals/jquery-ui.min.js"
+},{
+  "asset_url": "reportembed.bundle.min.css",
+  "url":"https://app.powerbi.com/13.0.12816.284/styles/reportembed.bundle.min.css"
+},
+
+  {
+    "asset_url": "jquery-ui.min.css",
+    "url":"https://app.powerbi.com/13.0.12816.284/externals/jquery-ui.min.css"
+  }, {
+  "asset_url": "StandardFont.woff",
+  "url":"https://app.powerbi.com/13.0.12816.284/fonts/StandardFont.woff"
+
+},{
+  "asset_url": "reportEmbed.json-contracts.min.js",
+  "url":"https://app.powerbi.com/13.0.12816.284/scripts/reportEmbed.json-contracts.min.js"
+
+},{
+  "asset_url": "globalize.min.js",
+  "url":"https://app.powerbi.com/13.0.12816.284/scripts/jquery.globalize/globalize.min.js"
+
+},{
+  "asset_url": "globalize.culture.en-GB.js",
+  "url":"https://app.powerbi.com/13.0.12816.284/scripts/jquery.globalize/globalize.culture.en-GB.js"
+
+}
+
+]
