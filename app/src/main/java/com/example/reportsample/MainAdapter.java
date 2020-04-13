@@ -1,5 +1,6 @@
 package com.example.reportsample;
 
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,6 +43,14 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
         webSetting.setAppCacheEnabled(true);
         webSetting.setDomStorageEnabled(true);
         holder.webView.setWebViewClient(new MyWebViewClient());
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            // chromium, enable hardware acceleration
+            holder.webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
+        } else {
+            // older android version, disable hardware acceleration
+            holder.webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+        }
         holder.webView.loadUrl("file:///android_asset/page.html");
 
 
